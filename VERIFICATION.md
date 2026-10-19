@@ -23,3 +23,7 @@ Physical iPhone/Safari installation and its storage-permission behavior have not
 ## Quantity controls update
 
 Twelve model tests pass, including whole-count validation, fractional stock and legacy-backup migration. Browser checks saved 12 eggs and 2.5 cartons, verified custom units and optional independent split quantities, and confirmed receipt review uses the same controls.
+
+## iPhone focus and tapping fix
+
+Browser-computed font sizes for search, sort, and every add-item input/select/textarea are 16px. Opening the form focuses its type selector and no longer autofocuses a text field. Pinch zoom remains enabled; touch manipulation suppresses double-tap zoom, smaller mobile controls have 44px targets, and the dialog scrolls inside the available viewport. Physical iPhone keyboard/zoom behavior still needs device confirmation.
