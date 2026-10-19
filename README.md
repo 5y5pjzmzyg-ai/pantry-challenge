@@ -45,7 +45,13 @@ Tests use the built-in Node test runner, with no installed dependencies. Browser
 
 Serve dist/ over HTTPS without rewriting missing assets to HTML. Serve .mjs/.js as JavaScript, .wasm as application/wasm and .gz as application/gzip (do not set Content-Encoding: gzip on traineddata.gz). The included _headers file is supported by compatible static hosts. Other hosts should apply equivalent headers. Do not cache sw.js permanently. Keep the app at the same URL to keep using its existing browser storage.
 
-Source is kept in the user-approved private GitHub repository: https://github.com/5y5pjzmzyg-ai/pantry-challenge . The user approved a public HTTPS app with local-only inventory and receipt processing. Hosting source synchronization is handled through Sites; GitHub is a copy of the app source. The local app never creates repositories or transmits inventory.
+Source repository: https://github.com/5y5pjzmzyg-ai/pantry-challenge
+
+The app is published using GitHub Pages from the `gh-pages` branch, whose root contains the contents of `dist/`. The source and tests remain on `main`. All URLs are relative, so the app works at its repository subpath. The published app and source code are public; inventory, shopping data and receipt photos remain local to each browser.
+
+For releases, publish the exact tested `dist/` contents to `gh-pages` and keep `.nojekyll` in that branch. No build or secrets are required.
+
+When moving from a different site address, export a backup there and import it at the Pages address. Browser storage does not move automatically.
 
 ## Third-party code
 
