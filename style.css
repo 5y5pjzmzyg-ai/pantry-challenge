@@ -15,3 +15,5 @@
 .product-row{width:100%;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) 10px;gap:12px;align-items:center;min-height:64px;border:0;border-radius:0;background:transparent;padding:16px 14px;text-align:left;font-size:16px}.product-name{font-weight:650;overflow-wrap:anywhere}.product-amount{text-align:right;color:#53684f;overflow-wrap:anywhere;line-height:1.4}.product-chevron{font-size:22px;color:#8a9789}.category-empty{border:1px dashed #cad4c2;border-radius:14px;padding:28px 18px;text-align:center;color:#68786e}
 @media(min-width:1000px){.category-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:740px){.category-tile{min-height:122px;padding:17px}.layout{padding-top:18px}.inventory-add{margin-bottom:16px}.pantry-title{font-size:26px}.homes{margin-bottom:18px}.product-row{gap:9px}.brand{font-size:17px}}
+
+.opened-label{font-size:14px;font-weight:650;margin:20px 0 0}.opened-group{display:grid;grid-template-columns:minmax(72px,1fr) minmax(110px,1.6fr) 44px;gap:8px;align-items:end;margin-bottom:12px}.opened-group label{margin-bottom:0}.opened-group>button{min-height:48px;padding:8px;font-size:22px}
