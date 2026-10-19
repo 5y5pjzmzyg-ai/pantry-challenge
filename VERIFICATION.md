@@ -27,3 +27,7 @@ Twelve model tests pass, including whole-count validation, fractional stock and 
 ## iPhone focus and tapping fix
 
 Browser-computed font sizes for search, sort, and every add-item input/select/textarea are 16px. Opening the form focuses its type selector and no longer autofocuses a text field. Pinch zoom remains enabled; touch manipulation suppresses double-tap zoom, smaller mobile controls have 44px targets, and the dialog scrolls inside the available viewport. Physical iPhone keyboard/zoom behavior still needs device confirmation.
+
+## Tile inventory update
+
+Browser checks opened Fridge from a tile, added 12 eggs with Fridge preselected, edited it to 10 eggs through the simple list, and returned to the correct category product count. Search retained focus while filtering without replacing the focused field. All editor inputs/selects/textareas computed to 16px, with no autofocus. The app now uses category tiles instead of the old inventory hero and chip filters. Physical iPhone testing remains a device-side check.

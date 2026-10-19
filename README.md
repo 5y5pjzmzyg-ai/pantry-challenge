@@ -14,6 +14,8 @@ Open http://127.0.0.1:4173. The static site is in `dist/`. For a phone, deploy `
 
 ## Features
 
+- iPhone-focused inventory home: Add item first, then category tiles. Each tile opens a simple product/amount list; tap a row to edit.
+
 - Separate Tampere and Seinäjoki inventories and shopping lists.
 - Seven categories: Fridge, Freezer, Cupboard, Household, Toiletries, Supplements, Medicines.
 - Item type first: Countable uses whole numbers (eggs/cans); Divisible accepts partial quantities (2.5 cartons/bags). Opened/unopened tracking is optional for divisible items. Units are selected from a dropdown with a Custom option. Existing split-stock records and version 1 backups migrate without changing amounts.
