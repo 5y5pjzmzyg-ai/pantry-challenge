@@ -31,3 +31,6 @@ Browser-computed font sizes for search, sort, and every add-item input/select/te
 ## Tile inventory update
 
 Browser checks opened Fridge from a tile, added 12 eggs with Fridge preselected, edited it to 10 eggs through the simple list, and returned to the correct category product count. Search retained focus while filtering without replacing the focused field. All editor inputs/selects/textareas computed to 16px, with no autofocus. The app now uses category tiles instead of the old inventory hero and chip filters. Physical iPhone testing remains a device-side check.
+
+## Multiple opened amounts
+17 model tests pass. Browser verification saved and reopened 1 unopened + 2 nearly empty + 1 half empty. Zero groups are omitted. Version 1 and 2 backups migrate without losing stock.
