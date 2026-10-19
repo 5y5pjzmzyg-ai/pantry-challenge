@@ -19,3 +19,7 @@ Nine Node.js tests pass: independent quantities preserved by moves; custom units
 ## Limits
 
 Physical iPhone/Safari installation and its storage-permission behavior have not been tested. The layout has a mobile breakpoint, large touch targets and a PWA manifest, but final Safari device verification should cover Add to Home Screen, a cold offline launch, photo selection and export to Files. Browser storage can be evicted; exported backups are the recovery path. Real receipt formatting varies, which is why per-product review is mandatory.
+
+## Quantity controls update
+
+Twelve model tests pass, including whole-count validation, fractional stock and legacy-backup migration. Browser checks saved 12 eggs and 2.5 cartons, verified custom units and optional independent split quantities, and confirmed receipt review uses the same controls.

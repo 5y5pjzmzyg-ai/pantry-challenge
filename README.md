@@ -16,7 +16,7 @@ Open http://127.0.0.1:4173. The static site is in `dist/`. For a phone, deploy `
 
 - Separate Tampere and Seinäjoki inventories and shopping lists.
 - Seven categories: Fridge, Freezer, Cupboard, Household, Toiletries, Supplements, Medicines.
-- Independently editable decimal opened/unopened quantities; custom units and optional rough amounts. Different container units may be separate product rows.
+- Item type first: Countable uses whole numbers (eggs/cans); Divisible accepts partial quantities (2.5 cartons/bags). Opened/unopened tracking is optional for divisible items. Units are selected from a dropdown with a Custom option. Existing split-stock records and version 1 backups migrate without changing amounts.
 - Explicit whole-row moves across homes/categories. Moving never opens containers. Partial moves can be recorded by editing the source and adding the destination stock.
 - Optional Reminder, Best before and Use by dates. Undated fridge/freezer/cupboard stock receives check prompts after 7/90/180 days. These are reminders to inspect, not expiry estimates. No automatic date timer for household, toiletries, supplements or medicines.
 - Intentional Use It Up tags and remaining product count, separate from date status.
